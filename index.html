@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascriptExercise</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+	<div class="h-tag">
+	<h2>Welcome To My Account Login</h2>
+	</div>
+  <tr>
+    <td><img src="login.png" alt="loginU" style="width:30%;"></td>
+  </tr>
+  <div class="container"><tr>
+	<td>Enter User Name :</td>  
+  <input type="text" name="username" placeholder="username" id="user" required>
+  <br>
+	</tr>
+	<tr>
+	<td>Enter Password :</td>
+	<td><input type="password" placeholder="*******" id="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+	</tr><br></br>
+	<input type="submit" value="Login" class="btn" onClick="login()" /></td>
+</div></tr>
+</body>
+</html>
+

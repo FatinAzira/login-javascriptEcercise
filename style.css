@@ -1,0 +1,14 @@
+.container{
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+.loginU{
+  position: relative;
+  margin: auto;
+  width: 30%;;
+}
+.h-tag{
+  color: blueviolet;
+  font-style: initial;
+}
